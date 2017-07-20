@@ -5,6 +5,7 @@ rvm:
 - 2.4.1
 - jruby-9.1.10.0
 before_install:
+- pip install --upgrade --user awscli
 - gem update --system
 - gem install bundler
 before_script:
